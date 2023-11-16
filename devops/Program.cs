@@ -28,7 +28,7 @@ var connectionString = "Data Source=" + Datasource + ";" +
                        "Database=" + Database + ";" +
                        "TrustServerCertificate=true";
 
-Debug.Print(connectionString);
+
 // Add services to the container.
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
@@ -86,7 +86,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-//app.UseAuthentication();
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

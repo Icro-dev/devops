@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using devops.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace devops.Data
@@ -9,5 +10,6 @@ namespace devops.Data
             : base(options)
         {
         }
+        public DbSet<Article> Articles { get; set; }
     }
 }

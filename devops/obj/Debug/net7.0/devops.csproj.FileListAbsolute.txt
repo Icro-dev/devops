@@ -84,3 +84,4 @@ C:\Users\svenn\source\repos\devops\devops\obj\Debug\net7.0\refint\devops.dll
 C:\Users\svenn\source\repos\devops\devops\obj\Debug\net7.0\devops.pdb
 C:\Users\svenn\source\repos\devops\devops\obj\Debug\net7.0\devops.genruntimeconfig.cache
 C:\Users\svenn\source\repos\devops\devops\obj\Debug\net7.0\ref\devops.dll
+C:\Users\svenn\source\repos\devops\devops\obj\Debug\net7.0\devops.sourcelink.json

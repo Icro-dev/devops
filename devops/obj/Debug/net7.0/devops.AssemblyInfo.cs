@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("devops")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fae1da2e6d2db74ebef7944dac6ee27a6719fa76")]
 [assembly: System.Reflection.AssemblyProductAttribute("devops")]
 [assembly: System.Reflection.AssemblyTitleAttribute("devops")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
