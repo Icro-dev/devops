@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
+using devops.Controllers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -39,6 +40,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();
 builder.Services.AddSingleton<WeatherForecastService>();
+builder.Services.AddTransient<ArticlesController>();
 
 var app = builder.Build();
 
@@ -65,8 +67,8 @@ using (var scope = app.Services.CreateScope())
     db.Database.Migrate();
     //adding seeddata
 
-    //   var services = scope.ServiceProvider;
-    // SeedData.Initialize(services);
+    var services = scope.ServiceProvider;
+    SeedData.Initialize(services);
 }
 
 // Configure the HTTP request pipeline.

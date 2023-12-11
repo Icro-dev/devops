@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\devops.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\svenn\\source\\repos\\devops\\devops\\wwwroot\\css\\MainSubSection.css",
+      "PackagePath": "staticwebassets\\css\\MainSubSection.css"
+    },
+    {
       "Id": "C:\\Users\\svenn\\source\\repos\\devops\\devops\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
@@ -51,6 +55,10 @@
     {
       "Id": "C:\\Users\\svenn\\source\\repos\\devops\\devops\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\svenn\\source\\repos\\devops\\devops\\wwwroot\\dropZone.js",
+      "PackagePath": "staticwebassets\\dropZone.js"
     },
     {
       "Id": "C:\\Users\\svenn\\source\\repos\\devops\\devops\\wwwroot\\favicon.png",

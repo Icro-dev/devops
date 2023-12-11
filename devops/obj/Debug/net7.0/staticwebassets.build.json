@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bIv1xvjZZNiUbwol8/97fj1P+EktsS864vTJC0QShLI=",
+  "Hash": "J9NVKIvRm8ALoNkKpFKRDH6Smk46IOMlQAtEadms6l4=",
   "Source": "devops",
   "BasePath": "_content/devops",
   "Mode": "Default",
@@ -1233,6 +1233,25 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Identity": "C:\\Users\\svenn\\source\\repos\\devops\\devops\\wwwroot\\css\\MainSubSection.css",
+      "SourceId": "devops",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\svenn\\source\\repos\\devops\\devops\\wwwroot\\",
+      "BasePath": "_content/devops",
+      "RelativePath": "css/MainSubSection.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\MainSubSection.css"
+    },
+    {
       "Identity": "C:\\Users\\svenn\\source\\repos\\devops\\devops\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "devops",
       "SourceType": "Discovered",
@@ -1421,6 +1440,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\svenn\\source\\repos\\devops\\devops\\wwwroot\\dropZone.js",
+      "SourceId": "devops",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\svenn\\source\\repos\\devops\\devops\\wwwroot\\",
+      "BasePath": "_content/devops",
+      "RelativePath": "dropZone.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\dropZone.js"
     },
     {
       "Identity": "C:\\Users\\svenn\\source\\repos\\devops\\devops\\wwwroot\\favicon.png",
